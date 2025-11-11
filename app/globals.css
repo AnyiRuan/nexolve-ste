@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{ --brand:#0C1E3A; --accent:#2AD573;}
+body{ @apply bg-white text-gray-800;}
+.container{ @apply max-w-6xl mx-auto px-4;}
+.btn{ @apply inline-flex items-center gap-2 px-5 py-3 rounded-2xl shadow-soft font-medium transition; }
+.btn-primary{ @apply bg-accent text-black hover:brightness-95; }
+.btn-secondary{ @apply bg-brand text-white hover:opacity-90; }
+.card{ @apply bg-white rounded-2xl shadow-soft p-6 border border-gray-100; }
+.kpi{ @apply text-brand font-semibold; }

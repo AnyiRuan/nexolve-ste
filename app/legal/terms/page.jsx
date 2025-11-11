@@ -1,0 +1,2 @@
+export const metadata={ title:'Terms' };
+export default function Page(){return (<section className="container py-12"><h1 className="text-3xl font-bold">Terms</h1><p className="mt-4 text-gray-600">Placeholder policy text. Replace with your legal content.</p></section>)}
