@@ -4,6 +4,8 @@ const rows=[
   {title:'Website & Digital Growth', deliver:'Next.js site, CMS, SEO, analytics, automation', time:'3–4w', price:'$5k–$10k + $800–$2k/mo', link:'/services/website-digital-growth'},
   {title:'Custom App Development', deliver:'RN app, backend, admin, reports & exports', time:'6–8w', price:'$12k–$25k + support', link:'/services/custom-apps'},
   {title:'Blockchain & Compliance', deliver:'Traceability, notarization, audit dashboards', time:'6–8w', price:'$15k–$40k', link:'/services/blockchain-compliance'},
+  {title:'Digital Marketing', deliver:'Google Ads, Meta (Facebook/Instagram), X (Twitter), LinkedIn campaigns, analytics & ROI tracking', time:'2–3w setup', price:'$3k–$8k + ad spend', link:'/services/digital-marketing'},
+  {title:'WeChat Mini Program', deliver:'Mini Program development, WeChat Pay integration, user analytics, content management', time:'4–6w', price:'$8k–$20k + maintenance', link:'/services/wechat-mini-program'},
 ];
 export default function Page(){
   return (
