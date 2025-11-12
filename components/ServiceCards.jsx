@@ -3,6 +3,8 @@ const services=[
   {slug:'website-digital-growth', title:'Website & Digital Growth', desc:'High-performance, SEO-optimized sites with analytics and marketing automation.'},
   {slug:'custom-apps', title:'Custom App Development', desc:'Reusable templates for CRM, expense, inspection and more.'},
   {slug:'blockchain-compliance', title:'Blockchain & Compliance', desc:'Lightweight on-chain traceability and notarization for audits.'},
+  {slug:'digital-marketing', title:'Digital Marketing', desc:'Comprehensive social media marketing across Google, Meta, X, LinkedIn and more to grow your digital presence.'},
+  {slug:'wechat-mini-program', title:'WeChat Mini Program', desc:'Build engaging WeChat Mini Programs to reach and engage Chinese audiences effectively.'},
 ];
 export default function ServiceCards(){
   return (
