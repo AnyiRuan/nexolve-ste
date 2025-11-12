@@ -1,0 +1,180 @@
+{
+  "common": {
+    "learnMore": "了解更多",
+    "getQuote": "获取报价",
+    "viewDetails": "查看",
+    "bookConsultation": "预约咨询",
+    "sendRequest": "发送请求"
+  },
+  "hero": {
+    "title": "实施·自动化·成果",
+    "subtitle": "我们不仅构建技术——我们实施可衡量的转型。从AI自动化到定制数字系统，Nexolve帮助企业用智能工作流取代手工作业，实现规模化增长。",
+    "ctaPrimary": "获取报价",
+    "ctaSecondary": "探索案例"
+  },
+  "valueGrid": {
+    "implementationFirst": {
+      "title": "实施优先",
+      "text": "成果，而非仅仅是代码。"
+    },
+    "aiNative": {
+      "title": "AI原生专业能力",
+      "text": "由大语言模型和机器学习驱动的定制工作流。"
+    },
+    "dataDriven": {
+      "title": "数据驱动的投资回报",
+      "text": "每个项目以影响力而非工作量来衡量。"
+    },
+    "secure": {
+      "title": "安全与合规",
+      "text": "设计即隐私，审计即准备。"
+    }
+  },
+  "services": {
+    "aiAutomation": {
+      "title": "AI与自动化实施",
+      "desc": "将重复性工作流转化为智能自学习系统，实现可衡量的投资回报。",
+      "whatYouGet": "您将获得",
+      "howItWorks": "工作流程",
+      "features": [
+        "AI知识助手（基于RAG的问答）",
+        "文档/邮件自动化对接ERP/CRM",
+        "报告生成与KPI预测",
+        "对话式AI支持台"
+      ],
+      "steps": [
+        "需求发现",
+        "概念验证（2周）",
+        "全面部署",
+        "监控与ROI报告"
+      ],
+      "pricing": "2.5万至8万美元 + 每月1千至3千美元",
+      "cta": "预约AI发现会议"
+    },
+    "websiteDigitalGrowth": {
+      "title": "网站与数字增长",
+      "desc": "高性能、SEO优化的网站，配备分析和营销自动化。"
+    },
+    "customApps": {
+      "title": "定制应用开发",
+      "desc": "可复用的CRM、费用、检查等模板。"
+    },
+    "blockchainCompliance": {
+      "title": "区块链与合规",
+      "desc": "轻量级链上可追溯性和审计公证。"
+    },
+    "digitalMarketing": {
+      "title": "数字营销",
+      "desc": "全面的社交媒体营销，覆盖Google、Meta、X、LinkedIn等平台，助力您的数字影响力增长。"
+    },
+    "wechatMiniProgram": {
+      "title": "微信小程序",
+      "desc": "打造引人入胜的微信小程序，有效触达和吸引中国受众。"
+    }
+  },
+  "servicesPage": {
+    "title": "我们的服务：从愿景到实施",
+    "subtitle": "每项合作始于明确的业务问题，终于可衡量的成果。",
+    "tableHeaders": {
+      "service": "服务",
+      "deliverables": "交付内容",
+      "timeline": "时间周期",
+      "startingAt": "起价"
+    },
+    "rows": [
+      {
+        "title": "AI与自动化实施",
+        "deliverables": "RAG问答、邮件/文档→ERP、AI报告、对话式支持",
+        "timeline": "PoC 2周 → 6-12周",
+        "price": "2.5万至8万美元 + 每月1千至3千美元"
+      },
+      {
+        "title": "网站与数字增长",
+        "deliverables": "Next.js网站、CMS、SEO、分析、自动化",
+        "timeline": "3-4周",
+        "price": "5千至1万美元 + 每月800至2千美元"
+      },
+      {
+        "title": "定制应用开发",
+        "deliverables": "RN应用、后端、管理端、报告与导出",
+        "timeline": "6-8周",
+        "price": "1.2万至2.5万美元 + 支持费用"
+      },
+      {
+        "title": "区块链与合规",
+        "deliverables": "可追溯性、公证、审计仪表板",
+        "timeline": "6-8周",
+        "price": "1.5万至4万美元"
+      },
+      {
+        "title": "数字营销",
+        "deliverables": "Google广告、Meta（Facebook/Instagram）、X（Twitter）、LinkedIn营销活动、分析与ROI追踪",
+        "timeline": "2-3周设置",
+        "price": "3千至8千美元 + 广告费用"
+      },
+      {
+        "title": "微信小程序",
+        "deliverables": "小程序开发、微信支付集成、用户分析、内容管理",
+        "timeline": "4-6周",
+        "price": "8千至2万美元 + 维护费用"
+      }
+    ]
+  },
+  "testimonial": {
+    "quote": "我们的自动化系统替代了80%的重复工作，将错误率降低90%，并在不到三个月内收回成本。",
+    "author": "匿名客户，物流行业"
+  },
+  "cta": {
+    "title": "让我们将您的运营转化为下一个竞争优势。",
+    "subtitle": "预约探索会议，48小时内获得量身定制的实施计划。",
+    "primaryBtn": "获取定制方案",
+    "secondaryBtn": "预约咨询"
+  },
+  "about": {
+    "title": "关于我们",
+    "intro": "Nexolve是一家专注于AI、自动化和数字运营的技术实施公司。我们的使命是通过实施优先的工程方法，帮助组织从手工作业转向可衡量的成果。",
+    "mission": {
+      "title": "使命",
+      "text": "将实施转化为持续增值的资产和产品。"
+    },
+    "vision": {
+      "title": "愿景",
+      "text": "一个80%的常规工作实现自动化的世界。"
+    },
+    "values": {
+      "title": "价值观",
+      "items": [
+        "清晰先于代码",
+        "成果先于发布",
+        "每一步都透明"
+      ]
+    }
+  },
+  "contact": {
+    "title": "申请您的实施方案",
+    "subtitle": "填写表单，我们的团队将在24小时内回复。",
+    "form": {
+      "name": "姓名",
+      "company": "公司",
+      "email": "邮箱",
+      "projectType": "项目类型",
+      "budget": "预算",
+      "message": "告诉我们您的目标",
+      "submit": "发送请求",
+      "successMessage": "感谢！我们将在24小时内联系您。",
+      "errorMessage": "出错了，请稍后重试。"
+    },
+    "projectTypes": [
+      "AI与自动化",
+      "网站",
+      "定制应用",
+      "区块链"
+    ],
+    "budgetOptions": [
+      "< 1万美元",
+      "1万至3万美元",
+      "3万至10万美元",
+      "10万美元+"
+    ]
+  }
+}
