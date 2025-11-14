@@ -8,26 +8,26 @@
   },
   "hero": {
     "title": "Implementation. Automation. Results.",
-    "subtitle": "We don't just build technology — we implement measurable transformation. From AI automation to custom digital systems, Nexolve helps organizations replace manual work with intelligent workflows that scale.",
+    "subtitle": "Nexolve is a forward-thinking technology company specializing in AI-powered solutions, modern web development, and digital transformation. We understand the complex challenges your business faces and are committed to delivering cutting-edge technology and innovative strategies that drive extraordinary results.",
     "ctaPrimary": "Get a Quote",
     "ctaSecondary": "Explore Stories"
   },
   "valueGrid": {
     "implementationFirst": {
-      "title": "Implementation-first",
-      "text": "Results, not just code."
+      "title": "Intelligent Automation Systems",
+      "text": "Whether you need intelligent automation systems to streamline operations, high-performance SaaS platforms to accelerate growth, or mobile applications to engage customers, we deliver tailored solutions that make an impact."
     },
     "aiNative": {
-      "title": "AI-native Expertise",
-      "text": "Custom workflows powered by LLMs and ML."
+      "title": "Deep Technical Expertise",
+      "text": "From advanced AI agents and machine learning to cloud-native architecture and blockchain smart contracts, our team brings deep technical expertise combined with proven industry experience."
     },
     "dataDriven": {
-      "title": "Data-driven ROI",
-      "text": "Every project measured by impact, not effort."
+      "title": "Vision to Innovation",
+      "text": "We work closely with your vision, transforming complex technical requirements into innovative products that drive real business outcomes. Our proven track record shows measurable results: 300% productivity increases, 250% higher user engagement, 80% faster response times, and thousands of hours saved through automation."
     },
     "secure": {
-      "title": "Secure & Compliant",
-      "text": "Privacy and audit readiness by design."
+      "title": "Technology Powers Growth",
+      "text": "Partner with Nexolve and let technology become the engine powering your enterprise growth."
     }
   },
   "services": {
