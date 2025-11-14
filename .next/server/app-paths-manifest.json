@@ -1,0 +1,18 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/page": "app/page.js",
+  "/api/lead/route": "app/api/lead/route.js",
+  "/impact/page": "app/impact/page.js",
+  "/playbooks/page": "app/playbooks/page.js",
+  "/legal/privacy/page": "app/legal/privacy/page.js",
+  "/legal/terms/page": "app/legal/terms/page.js",
+  "/services/ai-automation/page": "app/services/ai-automation/page.js",
+  "/stories/page": "app/stories/page.js",
+  "/services/blockchain-compliance/page": "app/services/blockchain-compliance/page.js",
+  "/about/page": "app/about/page.js",
+  "/services/custom-apps/page": "app/services/custom-apps/page.js",
+  "/services/website-digital-growth/page": "app/services/website-digital-growth/page.js",
+  "/services/page": "app/services/page.js",
+  "/use-cases/page": "app/use-cases/page.js"
+}

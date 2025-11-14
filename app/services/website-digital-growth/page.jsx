@@ -7,7 +7,20 @@ export default function Page(){
       <div className="grid md:grid-cols-2 gap-8 mt-8">
         <div className="card">
           <h3 className="font-semibold">What you get</h3>
-          <ul className="list-disc ml-5 mt-2 text-gray-700"><li>Next.js site with integrated CMS</li><li>SEO + Core Web Vitals optimization</li><li>Analytics and marketing automation</li><li>Continuous maintenance & updates</li></ul>
+          <ul className="list-disc ml-5 mt-2 text-gray-700">
+            <li>Next.js site with integrated CMS</li>
+            <li>SEO + Core Web Vitals optimization</li>
+            <li>Analytics and marketing automation</li>
+            <li>AI-powered intelligent chatbot solutions:
+              <ul className="list-circle ml-5 mt-1">
+                <li>Custom Customer Service Chatbot – 24/7 automated support with contextual responses</li>
+                <li>Sales Intelligence Chatbot – Lead qualification, product recommendations & conversion optimization</li>
+                <li>Technical Support Chatbot – Troubleshooting assistance, documentation navigation & ticket routing</li>
+                <li>HR Assistant Chatbot – Employee onboarding, policy guidance & benefits information</li>
+              </ul>
+            </li>
+            <li>Continuous maintenance & updates</li>
+          </ul>
         </div>
         <div className="card">
           <h3 className="font-semibold">How it works</h3>
