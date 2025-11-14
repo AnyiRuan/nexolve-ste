@@ -1,0 +1,180 @@
+{
+  "common": {
+    "learnMore": "Learn more",
+    "getQuote": "Get a Quote",
+    "viewDetails": "View",
+    "bookConsultation": "Book Consultation",
+    "sendRequest": "Send Request"
+  },
+  "hero": {
+    "title": "Implementation. Automation. Results.",
+    "subtitle": "We don't just build technology — we implement measurable transformation. From AI automation to custom digital systems, Nexolve helps organizations replace manual work with intelligent workflows that scale.",
+    "ctaPrimary": "Get a Quote",
+    "ctaSecondary": "Explore Stories"
+  },
+  "valueGrid": {
+    "implementationFirst": {
+      "title": "Implementation-first",
+      "text": "Results, not just code."
+    },
+    "aiNative": {
+      "title": "AI-native Expertise",
+      "text": "Custom workflows powered by LLMs and ML."
+    },
+    "dataDriven": {
+      "title": "Data-driven ROI",
+      "text": "Every project measured by impact, not effort."
+    },
+    "secure": {
+      "title": "Secure & Compliant",
+      "text": "Privacy and audit readiness by design."
+    }
+  },
+  "services": {
+    "aiAutomation": {
+      "title": "AI & Automation Implementation",
+      "desc": "Transform repetitive workflows into intelligent, self-learning systems with measurable ROI.",
+      "whatYouGet": "What you get",
+      "howItWorks": "How it works",
+      "features": [
+        "AI Knowledge Assistant (RAG-based Q&A)",
+        "Document / Email Automation to ERP / CRM",
+        "Report Generation & KPI Forecasting",
+        "Conversational AI Support Desk"
+      ],
+      "steps": [
+        "Discovery",
+        "PoC (2 weeks)",
+        "Full Deployment",
+        "Monitoring & ROI Reporting"
+      ],
+      "pricing": "$25k–$80k + $1k–$3k/month",
+      "cta": "Book AI Discovery Call"
+    },
+    "websiteDigitalGrowth": {
+      "title": "Website & Digital Growth",
+      "desc": "High-performance, SEO-optimized sites with analytics and marketing automation."
+    },
+    "customApps": {
+      "title": "Custom App Development",
+      "desc": "Reusable templates for CRM, expense, inspection and more."
+    },
+    "blockchainCompliance": {
+      "title": "Blockchain & Compliance",
+      "desc": "Lightweight on-chain traceability and notarization for audits."
+    },
+    "digitalMarketing": {
+      "title": "Digital Marketing",
+      "desc": "Comprehensive social media marketing across Google, Meta, X, LinkedIn and more to grow your digital presence."
+    },
+    "wechatMiniProgram": {
+      "title": "WeChat Mini Program",
+      "desc": "Build engaging WeChat Mini Programs to reach and engage Chinese audiences effectively."
+    }
+  },
+  "servicesPage": {
+    "title": "Our Services: From Vision to Implementation",
+    "subtitle": "Each engagement starts with a clear business problem and ends with a measurable result.",
+    "tableHeaders": {
+      "service": "Service",
+      "deliverables": "Deliverables",
+      "timeline": "Timeline",
+      "startingAt": "Starting at"
+    },
+    "rows": [
+      {
+        "title": "AI & Automation Implementation",
+        "deliverables": "RAG Q&A, Email/Doc→ERP, AI reports, conversational support",
+        "timeline": "PoC 2w → 6–12w",
+        "price": "$25k–$80k + $1k–$3k/mo"
+      },
+      {
+        "title": "Website & Digital Growth",
+        "deliverables": "Next.js site, CMS, SEO, analytics, automation",
+        "timeline": "3–4w",
+        "price": "$5k–$10k + $800–$2k/mo"
+      },
+      {
+        "title": "Custom App Development",
+        "deliverables": "RN app, backend, admin, reports & exports",
+        "timeline": "6–8w",
+        "price": "$12k–$25k + support"
+      },
+      {
+        "title": "Blockchain & Compliance",
+        "deliverables": "Traceability, notarization, audit dashboards",
+        "timeline": "6–8w",
+        "price": "$15k–$40k"
+      },
+      {
+        "title": "Digital Marketing",
+        "deliverables": "Google Ads, Meta (Facebook/Instagram), X (Twitter), LinkedIn campaigns, analytics & ROI tracking",
+        "timeline": "2–3w setup",
+        "price": "$3k–$8k + ad spend"
+      },
+      {
+        "title": "WeChat Mini Program",
+        "deliverables": "Mini Program development, WeChat Pay integration, user analytics, content management",
+        "timeline": "4–6w",
+        "price": "$8k–$20k + maintenance"
+      }
+    ]
+  },
+  "testimonial": {
+    "quote": "Our automation replaced 80% of repetitive work, cut errors by 90%, and paid for itself in under three months.",
+    "author": "Anonymous Client, Logistics Sector"
+  },
+  "cta": {
+    "title": "Let's turn your operations into your next competitive advantage.",
+    "subtitle": "Book a discovery call and receive a tailored implementation plan within 48 hours.",
+    "primaryBtn": "Get My Custom Plan",
+    "secondaryBtn": "Book Consultation"
+  },
+  "about": {
+    "title": "Who We Are",
+    "intro": "Nexolve is a technology implementation company focused on AI, automation, and digital operations. Our mission is to move organizations from manual work to measurable results through implementation-first engineering.",
+    "mission": {
+      "title": "Mission",
+      "text": "Implementation that compounds into assets and products."
+    },
+    "vision": {
+      "title": "Vision",
+      "text": "A world where 80% of routine work is automated."
+    },
+    "values": {
+      "title": "Values",
+      "items": [
+        "Clarity before code",
+        "Results before releases",
+        "Transparency in every step"
+      ]
+    }
+  },
+  "contact": {
+    "title": "Request Your Implementation Plan",
+    "subtitle": "Fill out the form and our team will respond within 24 hours.",
+    "form": {
+      "name": "Name",
+      "company": "Company",
+      "email": "Email",
+      "projectType": "Project Type",
+      "budget": "Budget",
+      "message": "Tell us about your goals",
+      "submit": "Send Request",
+      "successMessage": "Thank you! We will contact you within 24h.",
+      "errorMessage": "Something went wrong."
+    },
+    "projectTypes": [
+      "AI & Automation",
+      "Website",
+      "Custom App",
+      "Blockchain"
+    ],
+    "budgetOptions": [
+      "< $10k",
+      "$10–30k",
+      "$30–100k",
+      "$100k+"
+    ]
+  }
+}

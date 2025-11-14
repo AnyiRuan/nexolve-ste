@@ -1,0 +1,180 @@
+{
+  "common": {
+    "learnMore": "Saber más",
+    "getQuote": "Obtener cotización",
+    "viewDetails": "Ver",
+    "bookConsultation": "Reservar consulta",
+    "sendRequest": "Enviar solicitud"
+  },
+  "hero": {
+    "title": "Implementación. Automatización. Resultados.",
+    "subtitle": "No solo construimos tecnología — implementamos transformación medible. Desde automatización con IA hasta sistemas digitales personalizados, Nexolve ayuda a las organizaciones a reemplazar el trabajo manual con flujos de trabajo inteligentes que escalan.",
+    "ctaPrimary": "Obtener cotización",
+    "ctaSecondary": "Explorar casos"
+  },
+  "valueGrid": {
+    "implementationFirst": {
+      "title": "Implementación primero",
+      "text": "Resultados, no solo código."
+    },
+    "aiNative": {
+      "title": "Experiencia nativa en IA",
+      "text": "Flujos de trabajo personalizados impulsados por LLM y ML."
+    },
+    "dataDriven": {
+      "title": "ROI basado en datos",
+      "text": "Cada proyecto medido por impacto, no por esfuerzo."
+    },
+    "secure": {
+      "title": "Seguro y conforme",
+      "text": "Privacidad y preparación para auditorías por diseño."
+    }
+  },
+  "services": {
+    "aiAutomation": {
+      "title": "Implementación de IA y Automatización",
+      "desc": "Transforme flujos de trabajo repetitivos en sistemas inteligentes de autoaprendizaje con ROI medible.",
+      "whatYouGet": "Lo que obtienes",
+      "howItWorks": "Cómo funciona",
+      "features": [
+        "Asistente de conocimiento con IA (Q&A basado en RAG)",
+        "Automatización de documentos/correos a ERP/CRM",
+        "Generación de informes y pronóstico de KPI",
+        "Mesa de soporte con IA conversacional"
+      ],
+      "steps": [
+        "Descubrimiento",
+        "Prueba de concepto (2 semanas)",
+        "Despliegue completo",
+        "Monitoreo e informes de ROI"
+      ],
+      "pricing": "$25k–$80k + $1k–$3k/mes",
+      "cta": "Reservar llamada de descubrimiento de IA"
+    },
+    "websiteDigitalGrowth": {
+      "title": "Sitio web y crecimiento digital",
+      "desc": "Sitios de alto rendimiento optimizados para SEO con análisis y automatización de marketing."
+    },
+    "customApps": {
+      "title": "Desarrollo de aplicaciones personalizadas",
+      "desc": "Plantillas reutilizables para CRM, gastos, inspección y más."
+    },
+    "blockchainCompliance": {
+      "title": "Blockchain y cumplimiento",
+      "desc": "Trazabilidad ligera en cadena y notarización para auditorías."
+    },
+    "digitalMarketing": {
+      "title": "Marketing digital",
+      "desc": "Marketing integral en redes sociales en Google, Meta, X, LinkedIn y más para aumentar su presencia digital."
+    },
+    "wechatMiniProgram": {
+      "title": "Mini programa WeChat",
+      "desc": "Construye mini programas atractivos de WeChat para alcanzar e involucrar audiencias chinas de manera efectiva."
+    }
+  },
+  "servicesPage": {
+    "title": "Nuestros servicios: De la visión a la implementación",
+    "subtitle": "Cada compromiso comienza con un problema de negocio claro y termina con un resultado medible.",
+    "tableHeaders": {
+      "service": "Servicio",
+      "deliverables": "Entregables",
+      "timeline": "Cronograma",
+      "startingAt": "Desde"
+    },
+    "rows": [
+      {
+        "title": "Implementación de IA y Automatización",
+        "deliverables": "RAG Q&A, Correo/Doc→ERP, informes IA, soporte conversacional",
+        "timeline": "PoC 2s → 6–12s",
+        "price": "$25k–$80k + $1k–$3k/mes"
+      },
+      {
+        "title": "Sitio web y crecimiento digital",
+        "deliverables": "Sitio Next.js, CMS, SEO, análisis, automatización",
+        "timeline": "3–4s",
+        "price": "$5k–$10k + $800–$2k/mes"
+      },
+      {
+        "title": "Desarrollo de aplicaciones personalizadas",
+        "deliverables": "App RN, backend, admin, informes y exportaciones",
+        "timeline": "6–8s",
+        "price": "$12k–$25k + soporte"
+      },
+      {
+        "title": "Blockchain y cumplimiento",
+        "deliverables": "Trazabilidad, notarización, paneles de auditoría",
+        "timeline": "6–8s",
+        "price": "$15k–$40k"
+      },
+      {
+        "title": "Marketing digital",
+        "deliverables": "Anuncios de Google, Meta (Facebook/Instagram), X (Twitter), campañas de LinkedIn, análisis y seguimiento de ROI",
+        "timeline": "2–3s configuración",
+        "price": "$3k–$8k + gasto publicitario"
+      },
+      {
+        "title": "Mini programa WeChat",
+        "deliverables": "Desarrollo de mini programa, integración WeChat Pay, análisis de usuarios, gestión de contenido",
+        "timeline": "4–6s",
+        "price": "$8k–$20k + mantenimiento"
+      }
+    ]
+  },
+  "testimonial": {
+    "quote": "Nuestra automatización reemplazó el 80% del trabajo repetitivo, redujo los errores en un 90% y se pagó sola en menos de tres meses.",
+    "author": "Cliente anónimo, sector logístico"
+  },
+  "cta": {
+    "title": "Convirtamos sus operaciones en su próxima ventaja competitiva.",
+    "subtitle": "Reserve una llamada de descubrimiento y reciba un plan de implementación personalizado en 48 horas.",
+    "primaryBtn": "Obtener mi plan personalizado",
+    "secondaryBtn": "Reservar consulta"
+  },
+  "about": {
+    "title": "Quiénes somos",
+    "intro": "Nexolve es una empresa de implementación tecnológica enfocada en IA, automatización y operaciones digitales. Nuestra misión es mover organizaciones del trabajo manual a resultados medibles a través de ingeniería de implementación primero.",
+    "mission": {
+      "title": "Misión",
+      "text": "Implementación que se compone en activos y productos."
+    },
+    "vision": {
+      "title": "Visión",
+      "text": "Un mundo donde el 80% del trabajo rutinario esté automatizado."
+    },
+    "values": {
+      "title": "Valores",
+      "items": [
+        "Claridad antes de código",
+        "Resultados antes de lanzamientos",
+        "Transparencia en cada paso"
+      ]
+    }
+  },
+  "contact": {
+    "title": "Solicite su plan de implementación",
+    "subtitle": "Complete el formulario y nuestro equipo responderá en 24 horas.",
+    "form": {
+      "name": "Nombre",
+      "company": "Empresa",
+      "email": "Correo electrónico",
+      "projectType": "Tipo de proyecto",
+      "budget": "Presupuesto",
+      "message": "Cuéntenos sobre sus objetivos",
+      "submit": "Enviar solicitud",
+      "successMessage": "¡Gracias! Nos pondremos en contacto en 24 horas.",
+      "errorMessage": "Algo salió mal."
+    },
+    "projectTypes": [
+      "IA y Automatización",
+      "Sitio web",
+      "Aplicación personalizada",
+      "Blockchain"
+    ],
+    "budgetOptions": [
+      "< $10k",
+      "$10–30k",
+      "$30–100k",
+      "$100k+"
+    ]
+  }
+}
