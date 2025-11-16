@@ -10,8 +10,39 @@
 }
 
 body{
-  @apply bg-gradient-to-br from-gray-50 via-white to-gray-50 text-gray-800;
+  @apply text-gray-800;
+  background:
+    /* 微妙的斜线图案 */
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 60px,
+      rgba(12, 30, 58, 0.015) 60px,
+      rgba(12, 30, 58, 0.015) 120px
+    ),
+    /* 柔和的圆点图案 */
+    radial-gradient(circle at 20% 30%, rgba(42, 213, 115, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(12, 30, 58, 0.04) 0%, transparent 50%),
+    /* 基础渐变背景 */
+    linear-gradient(135deg, #f9fafb 0%, #ffffff 25%, #f3f4f6 50%, #ffffff 75%, #f9fafb 100%);
   background-attachment: fixed;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  /* 添加微妙的网格叠加 */
+  background-image:
+    linear-gradient(rgba(12, 30, 58, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(12, 30, 58, 0.02) 1px, transparent 1px);
+  background-size: 50px 50px;
 }
 
 .container{
@@ -88,6 +119,32 @@ body{
   background-size: 40px 40px;
 }
 
+/* 新增：斜线图案 */
+.pattern-diagonal {
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 30px,
+    rgba(12, 30, 58, 0.02) 30px,
+    rgba(12, 30, 58, 0.02) 60px
+  );
+}
+
+/* 新增：六角形图案 */
+.pattern-hexagon {
+  background-image:
+    repeating-linear-gradient(60deg, transparent 0 15px, rgba(12, 30, 58, 0.02) 15px 16px),
+    repeating-linear-gradient(120deg, transparent 0 15px, rgba(12, 30, 58, 0.02) 15px 16px),
+    repeating-linear-gradient(0deg, transparent 0 15px, rgba(12, 30, 58, 0.02) 15px 16px);
+}
+
+/* 新增：波浪图案 */
+.pattern-waves {
+  background-image:
+    radial-gradient(ellipse at 50% 100%, transparent 40%, rgba(42, 213, 115, 0.03) 50%, transparent 60%);
+  background-size: 100px 50px;
+}
+
 .gradient-accent {
   background: linear-gradient(135deg, var(--accent) 0%, var(--brand) 100%);
 }
@@ -121,9 +178,141 @@ body{
   border-radius: 2px;
 }
 
+/* 新增：垂直装饰线 */
+.decorative-line-vertical::before {
+  content: '';
+  position: absolute;
+  left: -12px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(180deg, var(--accent), transparent);
+  border-radius: 2px;
+}
+
+/* 新增：角落装饰 */
+.corner-decoration::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-top: 3px solid rgba(42, 213, 115, 0.3);
+  border-left: 3px solid rgba(42, 213, 115, 0.3);
+  border-radius: 8px 0 0 0;
+}
+
+.corner-decoration::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border-bottom: 3px solid rgba(12, 30, 58, 0.2);
+  border-right: 3px solid rgba(12, 30, 58, 0.2);
+  border-radius: 0 0 8px 0;
+}
+
+/* 新增：几何装饰圆形 */
+.geometric-circle {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid rgba(42, 213, 115, 0.15);
+  pointer-events: none;
+}
+
+/* 新增：几何装饰方形 */
+.geometric-square {
+  position: absolute;
+  border: 2px solid rgba(12, 30, 58, 0.1);
+  border-radius: 8px;
+  pointer-events: none;
+  transform: rotate(45deg);
+}
+
 /* 玻璃态效果 */
 .glass {
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* 新增：浮动装饰色块 - 小 */
+.floating-blob-sm {
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
+  animation: float 20s ease-in-out infinite;
+}
+
+/* 新增：浮动装饰色块 - 中 */
+.floating-blob-md {
+  position: fixed;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.06;
+  pointer-events: none;
+  z-index: 0;
+  animation: float 25s ease-in-out infinite reverse;
+}
+
+/* 新增：浮动装饰色块 - 大 */
+.floating-blob-lg {
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.05;
+  pointer-events: none;
+  z-index: 0;
+  animation: float 30s ease-in-out infinite;
+}
+
+/* 新增：装饰性边框色块 */
+.accent-border-blob {
+  position: relative;
+}
+
+.accent-border-blob::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(135deg, var(--accent), var(--brand));
+  border-radius: inherit;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.accent-border-blob:hover::before {
+  opacity: 0.3;
+}
+
+/* 浮动动画的变体 */
+@keyframes float {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    transform: translate(30px, -30px) scale(1.1);
+  }
+  50% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  75% {
+    transform: translate(20px, 30px) scale(1.05);
+  }
 }

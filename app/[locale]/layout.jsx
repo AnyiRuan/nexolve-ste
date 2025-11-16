@@ -25,6 +25,12 @@ export default async function LocaleLayout({ children, params }) {
   return (
     <html lang={locale}>
       <body>
+        {/* 浮动装饰色块 - 增加页面层次感 */}
+        <div className="floating-blob-lg bg-accent" style={{ top: '10%', left: '5%' }}></div>
+        <div className="floating-blob-md bg-brand" style={{ top: '40%', right: '8%' }}></div>
+        <div className="floating-blob-sm bg-accent" style={{ bottom: '20%', left: '15%' }}></div>
+        <div className="floating-blob-md bg-brand" style={{ top: '70%', right: '20%' }}></div>
+
         <NextIntlClientProvider messages={messages}>
           <header className="sticky top-0 z-50 bg-gradient-to-r from-brand via-brand-light to-brand backdrop-blur-md bg-opacity-95 shadow-lg border-b border-white/10">
             {/* 装饰性顶部线条 */}
@@ -72,8 +78,8 @@ export default async function LocaleLayout({ children, params }) {
             {/* 装饰性底部渐变 */}
             <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-accent/50 to-transparent"></div>
           </header>
-          <main>{children}</main>
-          <footer className="relative mt-20 bg-gradient-to-br from-brand via-brand-light to-brand-dark text-gray-200 py-12 overflow-hidden">
+          <main className="relative z-10">{children}</main>
+          <footer className="relative z-10 mt-20 bg-gradient-to-br from-brand via-brand-light to-brand-dark text-gray-200 py-12 overflow-hidden">
             {/* 装饰性背景 */}
             <div className="absolute inset-0 pattern-dots opacity-10"></div>
             <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-accent to-transparent"></div>
