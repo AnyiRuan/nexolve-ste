@@ -1,11 +1,129 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-:root{ --brand:#0C1E3A; --accent:#2AD573;}
-body{ @apply bg-white text-gray-800;}
-.container{ @apply max-w-6xl mx-auto px-4;}
-.btn{ @apply inline-flex items-center gap-2 px-5 py-3 rounded-2xl shadow-soft font-medium transition; }
-.btn-primary{ @apply bg-accent text-black hover:brightness-95; }
-.btn-secondary{ @apply bg-brand text-white hover:opacity-90; }
-.card{ @apply bg-white rounded-2xl shadow-soft p-6 border border-gray-100; }
-.kpi{ @apply text-brand font-semibold; }
+
+:root{
+  --brand:#0C1E3A;
+  --accent:#2AD573;
+  --brand-light:#1a3a5f;
+  --accent-light:#3ae683;
+}
+
+body{
+  @apply bg-gradient-to-br from-gray-50 via-white to-gray-50 text-gray-800;
+  background-attachment: fixed;
+}
+
+.container{
+  @apply max-w-6xl mx-auto px-4;
+}
+
+.btn{
+  @apply inline-flex items-center gap-2 px-6 py-3.5 rounded-2xl shadow-lg font-medium transition-all duration-300 relative overflow-hidden;
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.5s;
+}
+
+.btn:hover::before {
+  left: 100%;
+}
+
+.btn-primary{
+  @apply bg-gradient-to-r from-accent to-[#3ae683] text-black hover:shadow-xl hover:scale-105 hover:-translate-y-0.5;
+}
+
+.btn-secondary{
+  @apply bg-gradient-to-r from-brand to-[#1a3a5f] text-white hover:shadow-xl hover:scale-105 hover:-translate-y-0.5;
+}
+
+.card{
+  @apply bg-white rounded-2xl shadow-soft p-6 border border-gray-100 relative overflow-hidden transition-all duration-300;
+  background: linear-gradient(135deg, #ffffff 0%, #f9fafb 100%);
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent), var(--brand));
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.card:hover::before {
+  transform: scaleX(1);
+}
+
+.card:hover {
+  @apply shadow-xl;
+  transform: translateY(-4px);
+}
+
+.kpi{
+  @apply text-brand font-semibold;
+}
+
+/* 装饰性背景图案 */
+.pattern-dots {
+  background-image: radial-gradient(circle, rgba(12, 30, 58, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.pattern-grid {
+  background-image:
+    linear-gradient(rgba(12, 30, 58, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(12, 30, 58, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.gradient-accent {
+  background: linear-gradient(135deg, var(--accent) 0%, var(--brand) 100%);
+}
+
+.gradient-brand {
+  background: linear-gradient(135deg, var(--brand) 0%, var(--brand-light) 100%);
+}
+
+/* 装饰性色块 */
+.decorative-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+/* 装饰性线条 */
+.decorative-line {
+  position: relative;
+}
+
+.decorative-line::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+  border-radius: 2px;
+}
+
+/* 玻璃态效果 */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
