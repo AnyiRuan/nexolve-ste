@@ -3,6 +3,7 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
+import ChatBot from '@/components/ChatBot';
 
 export const metadata = {
   title: 'Nexolve – Implementation, Automation, Results',
@@ -105,6 +106,7 @@ export default async function LocaleLayout({ children, params }) {
               </div>
             </div>
           </footer>
+          <ChatBot />
         </NextIntlClientProvider>
       </body>
     </html>
