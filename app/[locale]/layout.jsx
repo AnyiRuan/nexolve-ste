@@ -108,6 +108,12 @@ export default async function LocaleLayout({ children, params }) {
                     </svg>
                     hello@nexolve.ai
                   </a>
+                  <Link href={`/${locale}/admin/login`} className="text-xs px-3 py-1 rounded bg-brand-dark/50 hover:bg-brand-dark border border-gray-600/30 hover:border-accent/50 transition-all flex items-center gap-1.5">
+                    <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                    </svg>
+                    Admin
+                  </Link>
                 </div>
               </div>
             </div>
