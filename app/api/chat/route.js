@@ -1,4 +1,21 @@
 import Anthropic from '@anthropic-ai/sdk';
+import fs from 'fs/promises';
+import path from 'path';
+
+// 加载知识库
+async function loadKnowledgeBase() {
+  const kbFile = path.join(process.cwd(), 'data', 'knowledge-base.json');
+  try {
+    const content = await fs.readFile(kbFile, 'utf-8');
+    return JSON.parse(content);
+  } catch {
+    // 返回默认知识库
+    return {
+      systemPrompt: 'You are a helpful AI assistant for Nexolve, a digital solutions firm specializing in AI automation, web development, custom apps, blockchain compliance, digital marketing, and WeChat mini programs. You help visitors learn about our services and answer their questions professionally and concisely.',
+      faqs: []
+    };
+  }
+}
 
 export async function POST(request) {
   try {
@@ -15,6 +32,20 @@ export async function POST(request) {
       apiKey: process.env.ANTHROPIC_API_KEY,
     });
 
+    // 加载知识库
+    const kb = await loadKnowledgeBase();
+
+    // 构建增强的系统提示词
+    let systemPrompt = kb.systemPrompt;
+
+    if (kb.faqs && kb.faqs.length > 0) {
+      systemPrompt += '\n\nHere are some frequently asked questions you should be familiar with:\n\n';
+      kb.faqs.forEach((faq, index) => {
+        systemPrompt += `Q${index + 1}: ${faq.question}\nA${index + 1}: ${faq.answer}\n\n`;
+      });
+      systemPrompt += 'Use this information to provide accurate and helpful responses to user questions.';
+    }
+
     // Convert messages to Anthropic format
     const anthropicMessages = messages.map(msg => ({
       role: msg.role,
@@ -25,7 +56,7 @@ export async function POST(request) {
       model: 'claude-3-5-haiku-20241022',
       max_tokens: 1024,
       messages: anthropicMessages,
-      system: "You are a helpful AI assistant for Nexolve, a digital solutions firm specializing in AI automation, web development, custom apps, blockchain compliance, digital marketing, and WeChat mini programs. You help visitors learn about our services and answer their questions professionally and concisely.",
+      system: systemPrompt,
     });
 
     return new Response(
